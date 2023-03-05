@@ -58,6 +58,7 @@ public class PressToTrigger : MonoBehaviour
                 isPressed = true;
                 triggeredObject.SetActive(true);
                 Colliders.SetActive(false);
+                playSound.Play();
             }
         }
     }
