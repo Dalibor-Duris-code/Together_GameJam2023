@@ -15,6 +15,10 @@ public class PressToTrigger : MonoBehaviour
     [SerializeField] private GameObject switchOn;
     [SerializeField] private GameObject switchOff;
 
+    [Header("Sounds")]
+    [SerializeField] private AudioSource playSound;
+
+    [Header("Other")]
     [SerializeField]
     private Transform target;
     [SerializeField]
